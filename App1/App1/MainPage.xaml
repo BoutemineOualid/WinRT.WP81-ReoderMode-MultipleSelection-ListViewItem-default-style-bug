@@ -19,7 +19,7 @@
         </Grid.RowDefinitions>
         <TextBlock Text="Select some items, activate the reorder mode by toggling the app bar button try to reposition the previously selected items. The exceptions will appear." TextWrapping="Wrap" FontSize="16" Margin="20" TextAlignment="Center"></TextBlock>
         <ListView x:Name="lstItems" Grid.Row="1" ItemsSource="{Binding Items}" SelectionMode="Multiple"
-                  AllowDrop="True" IsSwipeEnabled="True"
+                  
                   >
             <ListView.ItemTemplate>
                 <DataTemplate>

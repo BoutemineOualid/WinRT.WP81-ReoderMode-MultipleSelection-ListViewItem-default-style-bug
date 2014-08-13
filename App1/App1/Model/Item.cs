@@ -12,6 +12,6 @@ namespace App1.Model
         
         public string Description { get; set; }
 
-        public string AvatarUrl { get { return "Assets/Square71x71Logo.scale-240.png0"; }}
+        public string AvatarUrl { get { return "/Assets/Square71x71Logo.scale-240.png"; }}
     }
 }
